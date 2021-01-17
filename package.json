@@ -1,0 +1,21 @@
+{
+  "name": "xendit-qa-villanueva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --format html:reports/cucumber_report.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "cucumber-html-reporter": "^5.3.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "sleep": "^6.3.0",
+    "tesseract.js": "^2.1.4"
+  }
+}
